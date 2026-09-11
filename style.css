@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: gray;
+    color: white;
+}
+
+.navbar {
+    height: 70px;
+    background: rgb(247, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#appname {
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+}
+#a1{
+    text-align: center;
+}
+#a1 span:hover{
+    color: black;
+    
+}
+
+.moviehead {
+    display: flex;
+    justify-content: center;
+}
+.moviehead h2:hover {
+    color: black;
+}
+
+
+#m:hover{
+    color: rgb(54, 54, 54);
+
+}
+#h:hover{
+    color: rgb(54, 54, 54);
+}
+
+#nav-bar {
+    display: flex;
+    gap: 5px;
+}
+
+#nav-bar a{
+color: gray;
+}
+
+#nav-bar a:hover{
+    color: rgb(54, 54, 54);
+}
+#movies {
+    display: flex; 
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.movie-card {
+    background-color: white;
+    min-width:180px;
+    transition: transform 0.3s;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+    block-size: auto;
+    font-family: sans-serif;
+
+
+}
+
+.movie-card img {
+    padding-top: 20px;
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+.movie-card:hover {
+    transform: scale(1.03);
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+
+#searchBtn {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+#searchBtn:hover {
+    transform: scale(1.03);
+    background-color: rgb(54, 54, 54);
+    cursor: pointer;
+}
+
+#addd {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+#addd:hover{
+     transform: scale(1.03);
+    background-color: rgb(54, 54, 54);   
+    cursor: pointer;
+}
